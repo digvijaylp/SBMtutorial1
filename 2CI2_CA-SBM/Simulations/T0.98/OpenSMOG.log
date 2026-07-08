@@ -1,0 +1,31 @@
+
+System Information:
+-------------------
+Date and time: 2026-07-08 22:40:18.771900
+Machine information: System : Linux, Version : #1 SMP PREEMPT_DYNAMIC Fri May 15 14:03:46 UTC 2026
+OpenSMOG version: 1.1.1
+Platform: CUDA
+Precision: single
+Integrator: langevin
+Savefolder: T0.98
+
+Simulation Information:
+-----------------------
+Name: Output
+Time step: 0.0005
+Collision Rate: 1.0
+r_cutoff: 3.0
+Temperature: 0.9799454726291017
+
+Input Files:
+------------
+GroFile: ../SuBMIT_Output/opensmog.gro
+TopFile: ../SuBMIT_Output/opensmog.top
+XmlFile: ../SuBMIT_Output/opensmog.xml
+
+Output Files:
+-------------
+Output_trajectory.xtc
+Output_energies.txt
+Output_forces.txt
+OpenSMOG.log

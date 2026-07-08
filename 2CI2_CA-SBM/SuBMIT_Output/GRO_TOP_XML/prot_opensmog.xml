@@ -1,0 +1,148 @@
+<OpenSMOGforces>
+ <nonbond>
+  <nonbond_bytype>
+   <expression expr="C12(type1,type2)/(r^12) - C10(type1,type2)/(r^10)"/>
+   <parameter>C10</parameter>
+   <parameter>C12</parameter>
+   <nonbond_param type1="CA" type2="CA" C10="0.000000e+00" C12="1.677722e-05"/>
+  </nonbond_bytype>
+ </nonbond>
+ <contacts>
+  <contacts_type name="contacts0_LJ-10-12">
+   <expression expr="eps*( 5*((r0/r)^12) - 6*((r0/r)^10) )"/>
+   <parameter>r0</parameter>
+   <parameter>eps</parameter>
+   <interaction i="3" j="8" r0="1.225481e+00" eps="1.000000e+00"/>
+   <interaction i="3" j="24" r0="7.149445e-01" eps="1.000000e+00"/>
+   <interaction i="3" j="64" r0="8.410246e-01" eps="1.000000e+00"/>
+   <interaction i="4" j="62" r0="8.155958e-01" eps="1.000000e+00"/>
+   <interaction i="4" j="63" r0="5.348048e-01" eps="1.000000e+00"/>
+   <interaction i="4" j="64" r0="5.086595e-01" eps="1.000000e+00"/>
+   <interaction i="5" j="61" r0="6.712248e-01" eps="1.000000e+00"/>
+   <interaction i="5" j="62" r0="5.613849e-01" eps="1.000000e+00"/>
+   <interaction i="5" j="63" r0="4.324577e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="10" r0="7.921146e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="20" r0="8.843309e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="21" r0="7.762082e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="24" r0="9.725614e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="25" r0="1.100085e+00" eps="1.000000e+00"/>
+   <interaction i="6" j="48" r0="9.951784e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="61" r0="5.772628e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="62" r0="5.212453e-01" eps="1.000000e+00"/>
+   <interaction i="6" j="64" r0="9.241826e-01" eps="1.000000e+00"/>
+   <interaction i="7" j="61" r0="4.735306e-01" eps="1.000000e+00"/>
+   <interaction i="8" j="12" r0="8.649585e-01" eps="1.000000e+00"/>
+   <interaction i="8" j="20" r0="9.914588e-01" eps="1.000000e+00"/>
+   <interaction i="9" j="17" r0="6.325884e-01" eps="1.000000e+00"/>
+   <interaction i="9" j="20" r0="8.585514e-01" eps="1.000000e+00"/>
+   <interaction i="9" j="21" r0="9.294140e-01" eps="1.000000e+00"/>
+   <interaction i="9" j="58" r0="6.598909e-01" eps="1.000000e+00"/>
+   <interaction i="9" j="62" r0="7.194992e-01" eps="1.000000e+00"/>
+   <interaction i="10" j="58" r0="4.966471e-01" eps="1.000000e+00"/>
+   <interaction i="10" j="59" r0="5.553352e-01" eps="1.000000e+00"/>
+   <interaction i="10" j="60" r0="5.683439e-01" eps="1.000000e+00"/>
+   <interaction i="10" j="61" r0="5.713352e-01" eps="1.000000e+00"/>
+   <interaction i="11" j="57" r0="5.324509e-01" eps="1.000000e+00"/>
+   <interaction i="11" j="58" r0="4.945929e-01" eps="1.000000e+00"/>
+   <interaction i="12" j="16" r0="6.331921e-01" eps="1.000000e+00"/>
+   <interaction i="12" j="56" r0="8.593683e-01" eps="1.000000e+00"/>
+   <interaction i="12" j="57" r0="5.265032e-01" eps="1.000000e+00"/>
+   <interaction i="12" j="58" r0="5.564059e-01" eps="1.000000e+00"/>
+   <interaction i="13" j="17" r0="5.997879e-01" eps="1.000000e+00"/>
+   <interaction i="13" j="56" r0="6.174290e-01" eps="1.000000e+00"/>
+   <interaction i="13" j="57" r0="4.457342e-01" eps="1.000000e+00"/>
+   <interaction i="13" j="58" r0="6.246110e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="18" r0="5.927792e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="32" r0="8.063750e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="50" r0="7.610867e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="52" r0="7.911789e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="56" r0="6.298690e-01" eps="1.000000e+00"/>
+   <interaction i="14" j="58" r0="6.622696e-01" eps="1.000000e+00"/>
+   <interaction i="15" j="19" r0="6.546892e-01" eps="1.000000e+00"/>
+   <interaction i="16" j="20" r0="6.645738e-01" eps="1.000000e+00"/>
+   <interaction i="17" j="21" r0="6.217776e-01" eps="1.000000e+00"/>
+   <interaction i="17" j="50" r0="8.490034e-01" eps="1.000000e+00"/>
+   <interaction i="17" j="58" r0="7.758982e-01" eps="1.000000e+00"/>
+   <interaction i="18" j="22" r0="6.001723e-01" eps="1.000000e+00"/>
+   <interaction i="18" j="30" r0="7.292538e-01" eps="1.000000e+00"/>
+   <interaction i="19" j="23" r0="6.233929e-01" eps="1.000000e+00"/>
+   <interaction i="20" j="24" r0="6.464671e-01" eps="1.000000e+00"/>
+   <interaction i="21" j="25" r0="5.646967e-01" eps="1.000000e+00"/>
+   <interaction i="21" j="28" r0="7.397589e-01" eps="1.000000e+00"/>
+   <interaction i="21" j="30" r0="8.607557e-01" eps="1.000000e+00"/>
+   <interaction i="21" j="48" r0="8.247313e-01" eps="1.000000e+00"/>
+   <interaction i="21" j="50" r0="1.039517e+00" eps="1.000000e+00"/>
+   <interaction i="21" j="62" r0="9.049870e-01" eps="1.000000e+00"/>
+   <interaction i="22" j="26" r0="4.615297e-01" eps="1.000000e+00"/>
+   <interaction i="22" j="28" r0="6.397292e-01" eps="1.000000e+00"/>
+   <interaction i="22" j="30" r0="8.813404e-01" eps="1.000000e+00"/>
+   <interaction i="25" j="45" r0="1.045425e+00" eps="1.000000e+00"/>
+   <interaction i="25" j="46" r0="8.231783e-01" eps="1.000000e+00"/>
+   <interaction i="25" j="47" r0="9.615303e-01" eps="1.000000e+00"/>
+   <interaction i="25" j="48" r0="9.310922e-01" eps="1.000000e+00"/>
+   <interaction i="25" j="64" r0="9.778528e-01" eps="1.000000e+00"/>
+   <interaction i="27" j="46" r0="6.207019e-01" eps="1.000000e+00"/>
+   <interaction i="28" j="46" r0="4.856715e-01" eps="1.000000e+00"/>
+   <interaction i="28" j="48" r0="6.169699e-01" eps="1.000000e+00"/>
+   <interaction i="29" j="46" r0="5.875983e-01" eps="1.000000e+00"/>
+   <interaction i="29" j="47" r0="4.608284e-01" eps="1.000000e+00"/>
+   <interaction i="29" j="48" r0="5.905067e-01" eps="1.000000e+00"/>
+   <interaction i="30" j="48" r0="4.853819e-01" eps="1.000000e+00"/>
+   <interaction i="30" j="50" r0="7.198869e-01" eps="1.000000e+00"/>
+   <interaction i="31" j="47" r0="7.308384e-01" eps="1.000000e+00"/>
+   <interaction i="31" j="48" r0="6.027482e-01" eps="1.000000e+00"/>
+   <interaction i="31" j="49" r0="4.505111e-01" eps="1.000000e+00"/>
+   <interaction i="31" j="50" r0="5.951809e-01" eps="1.000000e+00"/>
+   <interaction i="32" j="50" r0="4.737220e-01" eps="1.000000e+00"/>
+   <interaction i="32" j="52" r0="6.964653e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="37" r0="6.788913e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="39" r0="9.505493e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="49" r0="7.010737e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="50" r0="6.066925e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="51" r0="5.013711e-01" eps="1.000000e+00"/>
+   <interaction i="33" j="52" r0="6.074952e-01" eps="1.000000e+00"/>
+   <interaction i="34" j="51" r0="5.332152e-01" eps="1.000000e+00"/>
+   <interaction i="34" j="52" r0="4.866900e-01" eps="1.000000e+00"/>
+   <interaction i="35" j="51" r0="5.015757e-01" eps="1.000000e+00"/>
+   <interaction i="35" j="52" r0="5.581968e-01" eps="1.000000e+00"/>
+   <interaction i="35" j="53" r0="6.278036e-01" eps="1.000000e+00"/>
+   <interaction i="35" j="59" r0="7.137169e-01" eps="1.000000e+00"/>
+   <interaction i="35" j="60" r0="8.089757e-01" eps="1.000000e+00"/>
+   <interaction i="37" j="51" r0="8.282881e-01" eps="1.000000e+00"/>
+   <interaction i="39" j="49" r0="1.000116e+00" eps="1.000000e+00"/>
+   <interaction i="39" j="51" r0="1.123925e+00" eps="1.000000e+00"/>
+   <interaction i="40" j="49" r0="1.210148e+00" eps="1.000000e+00"/>
+   <interaction i="42" j="47" r0="1.065827e+00" eps="1.000000e+00"/>
+   <interaction i="42" j="49" r0="1.238879e+00" eps="1.000000e+00"/>
+   <interaction i="42" j="65" r0="7.731504e-01" eps="1.000000e+00"/>
+   <interaction i="43" j="47" r0="8.507318e-01" eps="1.000000e+00"/>
+   <interaction i="43" j="64" r0="8.511693e-01" eps="1.000000e+00"/>
+   <interaction i="43" j="65" r0="4.878393e-01" eps="1.000000e+00"/>
+   <interaction i="44" j="64" r0="7.340541e-01" eps="1.000000e+00"/>
+   <interaction i="44" j="65" r0="4.550454e-01" eps="1.000000e+00"/>
+   <interaction i="45" j="64" r0="6.071158e-01" eps="1.000000e+00"/>
+   <interaction i="47" j="63" r0="8.484567e-01" eps="1.000000e+00"/>
+   <interaction i="47" j="64" r0="5.665150e-01" eps="1.000000e+00"/>
+   <interaction i="47" j="65" r0="5.426320e-01" eps="1.000000e+00"/>
+   <interaction i="48" j="62" r0="6.801338e-01" eps="1.000000e+00"/>
+   <interaction i="48" j="63" r0="5.960734e-01" eps="1.000000e+00"/>
+   <interaction i="48" j="64" r0="4.902243e-01" eps="1.000000e+00"/>
+   <interaction i="49" j="62" r0="6.399136e-01" eps="1.000000e+00"/>
+   <interaction i="49" j="63" r0="6.812251e-01" eps="1.000000e+00"/>
+   <interaction i="49" j="65" r0="7.518554e-01" eps="1.000000e+00"/>
+   <interaction i="50" j="58" r0="6.424377e-01" eps="1.000000e+00"/>
+   <interaction i="50" j="62" r0="5.666767e-01" eps="1.000000e+00"/>
+   <interaction i="51" j="57" r0="8.214478e-01" eps="1.000000e+00"/>
+   <interaction i="51" j="58" r0="5.860272e-01" eps="1.000000e+00"/>
+   <interaction i="51" j="59" r0="5.862505e-01" eps="1.000000e+00"/>
+   <interaction i="51" j="60" r0="6.093725e-01" eps="1.000000e+00"/>
+   <interaction i="52" j="56" r0="5.019698e-01" eps="1.000000e+00"/>
+   <interaction i="52" j="57" r0="5.295284e-01" eps="1.000000e+00"/>
+   <interaction i="52" j="58" r0="4.806673e-01" eps="1.000000e+00"/>
+   <interaction i="52" j="59" r0="5.305552e-01" eps="1.000000e+00"/>
+   <interaction i="53" j="57" r0="5.543443e-01" eps="1.000000e+00"/>
+   <interaction i="53" j="59" r0="5.857736e-01" eps="1.000000e+00"/>
+   <interaction i="58" j="62" r0="7.785913e-01" eps="1.000000e+00"/>
+  </contacts_type>
+ </contacts>
+</OpenSMOGforces>
